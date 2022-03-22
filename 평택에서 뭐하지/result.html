@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.pixabay.com/photo/2014/05/21/19/16/the-question-mark-350170_1280.png" rel="shortcut icon" type="image/x-icon">
 
     <meta property="og:title" content="나의 개발 유형은?" />
     <meta property="og:image" content="" />
@@ -20,74 +21,59 @@
         <div class="wrapper">
             <div class="result">
                 <div class="titles">
-                    <h3>혼자 산책하기 좋은</h3>
-                    <h1>배다리저수지</h1>
+                    <div class="small"><h3>혼자 산책하기 좋은</h3></div>
+                    <div class="name"><h1>배다리저수지</h1></div>
                 </div>
                 <div class="result_img">
-                    <img src="img/프론트엔드.png" alt="frontend">
+                    <img src="img/배다리.jpg" alt="frontend">
                 </div>
             </div>
             <div class="result_explains">
                 <div class="explain">
                     <h3 class="title">이 장소가 추천 나온 이유?</h3>
+                    <div class="desc">
                     <ul>
-                        <li>혼자 저수지 보며 공원도 크고 다리 등등 산책하기 좋다!!</li>
-                        <li>hello world</li>
-                        <li>hello world</li>
+                        <li>혼자 저수지 보며 공원도 크고 다리 등등 음악들으면서 산책하기 좋다!!</li>
+                        
+                        <li>옆에 바로 도서관도 있다. 산책하다가 쉬고싶음 책으로 go</li>
                     </ul>
                 </div>
-                <!-- <div class="explain">
-                    <h3 class="title">나와 맞는 개발 유형은 백엔드 개발자?!</h3>
-                    <ul>
-                        <li>hello world</li>
-                        <li>hello world</li>
-                        <li>hello world</li>
-                    </ul>
                 </div>
-                <div class="explain">
-                    <h3 class="title">나와 맞는 개발 유형은 백엔드 개발자?!</h3>
-                    <ul>
-                        <li>hello world</li>
-                        <li>hello world</li>
-                        <li>hello world</li>
-                    </ul>
-                </div> -->
+               
             </div>
             <div class="lectures">
-                <h3 class="title">그 외 추천지</h3>
+                <div class="second"><h3 class="title">그 외 추천지</h3></div>
                 <ul>
                     <li>
                        
-                            <img src="img/lec_web_fullstack.png" alt="제주코딩베이스캠프 기본강좌">
+                            
+                        <div class="secondde">
                             <h3>나태한책방</h3>
                             <h3>혼자일땐 책이 최고지!!</h3>
+                        </div>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="share">
-                <div class="url">
-                    <button class="copy_btn" type="button">URL 복사하기</button>
-                </div>
-                <div class="facebook">
-                    <button class="facebook_share" type="button">Facebook 공유하기</button>
-                </div>
-                <div class="kakao">
-                    <button class="kakao_share" type="button">카카오톡 공유하기</button>
-                </div>
-            </div>
+            
             <div class="buttons">
                 <ul>
                     <li>
-                        <h3>...이건 내가 아니야... 잘못된게 분명해!</h3>
-                        <a href="#">
+                        
+                        <a href="index.html">
                             <button type="button">테스트 다시 하기</button>
                         </a>
                     </li>
                     <li>
                         <h3>다른 사람들은 어디를 추천받았을까?</h3>
-                        <a href="index.html">
+                        <a href="all.html">
                             <button type="button">모든 추천지 살펴보기</button>
+                        </a>
+                    </li>
+                    <li>
+                        <h3>평택은 놀곳이 진짜 없을까?</h3>
+                        <a href="other.html">
+                            <button type="button">그 외 다른 평택 여행지나 맛집 보기</button>
                         </a>
                     </li>
                     
@@ -100,6 +86,7 @@
         </div>
     </section>
     <script type="text/javascript" src="js/result.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
     <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 </body>
 </html>
